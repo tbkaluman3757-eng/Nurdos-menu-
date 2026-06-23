@@ -215,3 +215,25 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
 }
+/* 1. Kategori Butonlarını Büyütme (Sıcak Kahveler, Soğuk Kahveler vb.) */
+.cat-btn {
+    font-size: 1.1rem !important;  /* Buton yazı boyutunu büyütür */
+    padding: 12px 20px !important; /* Butonların kendisini de daha tıklanabilir yapar */
+    font-weight: bold !important;  /* Yazıları biraz daha belirginleştirir */
+}
+
+/* 2. Menü Başlıklarını Büyütme (Türk Kahvesi, Espresso vb.) */
+.menu-item h3 {
+    font-size: 1.3rem !important;  /* Ürün isimlerini büyütür */
+}
+
+/* 3. Fiyat Yazılarını Büyütme */
+.price {
+    font-size: 1.2rem !important;  /* Fiyatları daha görünür yapar */
+    font-weight: 600 !important;
+}
+
+/* 4. Dijital QR Menü Alt Başlığını Büyütme */
+.subtitle {
+    font-size: 1.2rem !important;
+}
