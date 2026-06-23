@@ -215,25 +215,36 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
 }
-/* 1. Kategori Butonlarını Büyütme (Sıcak Kahveler, Soğuk Kahveler vb.) */
+/* 1. Kategori Butonları (Sıcak Kahveler, Soğuk Kahveler vb.) */
 .cat-btn {
-    font-size: 1.1rem !important;  /* Buton yazı boyutunu büyütür */
-    padding: 12px 20px !important; /* Butonların kendisini de daha tıklanabilir yapar */
-    font-weight: bold !important;  /* Yazıları biraz daha belirginleştirir */
+    font-size: 1.6rem !important;      /* Yazıyı ciddi oranda büyüttük */
+    font-weight: 900 !important;      /* Maksimum kalınlık (Koyu/Bold) */
+    padding: 16px 28px !important;    /* Butonların basma alanını iyice genişlettik */
+    letter-spacing: 0.5px;            /* Harfler arası hafif boşluk netlik sağlar */
 }
 
-/* 2. Menü Başlıklarını Büyütme (Türk Kahvesi, Espresso vb.) */
+/* 2. Menü Ürün Başlıkları (Türk Kahvesi, Espresso, Filtre Kahve vb.) */
 .menu-item h3 {
-    font-size: 1.3rem !important;  /* Ürün isimlerini büyütür */
+    font-size: 1.8rem !important;      /* Ürün isimlerini devasa yaptık */
+    font-weight: 800 !important;      /* Simsiyah ve kalın görünmesi için */
+    color: #ffffff !important;         /* Eğer arkası koyuysa beyaz renkte parlasın diye (isteğe bağlı değiştirebilirsin) */
 }
 
-/* 3. Fiyat Yazılarını Büyütme */
+/* 3. Fiyat Yazıları */
 .price {
-    font-size: 1.2rem !important;  /* Fiyatları daha görünür yapar */
-    font-weight: 600 !important;
+    font-size: 1.7rem !important;      /* Fiyatlar kabak gibi görünsün */
+    font-weight: 900 !important;      /* Fiyat kalınlığını da maksimum yaptık */
+    color: #e67e22 !important;         /* Fiyatları belirgin bir renge (örn turuncu) boyamak istersen diye, rengi değiştirebilirsin */
 }
 
-/* 4. Dijital QR Menü Alt Başlığını Büyütme */
+/* 4. Menüdeki Ürünlerin Kısa Açıklama Yazıları (Eğer varsa) */
+.menu-item p {
+    font-size: 1.2rem !important;      /* Açıklamalar da okunabilsin diye büyüttük */
+    font-weight: 500 !important;
+}
+
+/* 5. Ana Başlığın Altındaki Dijital QR Menü Yazısı */
 .subtitle {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
 }
