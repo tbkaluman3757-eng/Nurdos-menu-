@@ -199,3 +199,19 @@ body, .container, main, #app, .menu {
     display: flex;
     flex-direction: column;
 }
+/* Ana kapsayıcının genişlik sınırlarını tamamen kaldırıyoruz */
+.menu-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important; /* Menü elemanları ekrana çok yapışmasın diye kibar bir boşluk */
+    box-sizing: border-box !important;
+}
+
+/* Sayfa arka planının da tüm ekrana yayılması için */
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
