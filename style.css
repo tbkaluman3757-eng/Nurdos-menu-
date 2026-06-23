@@ -268,8 +268,8 @@ html, body {
 }
 /* 1. Ürün Görsellerini ULTRA MEGA BOYUT Yapıyoruz */
 .item-img {
-    width: 400px !important;       /* Resmin genişliğini 250 piksele çıkardık (eski haline göre bayağı büyük) */
-    height: 400px !important;      /* Kare ve nizami durması için yüksekliği de eşitledik */
+    width: 350px !important;       /* Resmin genişliğini 250 piksele çıkardık (eski haline göre bayağı büyük) */
+    height: 350px !important;      /* Kare ve nizami durması için yüksekliği de eşitledik */
     object-fit: cover !important;  /* Resim büyürken sünmesin, kalitesi bozulmadan kutuya tam otursun */
     border-radius: 20px !important; /* Resmin köşelerini tatlıca ovalleştirdik */
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4) !important; /* Resimlerin arkasına gölge atıp öne çıkardık */
