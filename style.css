@@ -35,7 +35,7 @@ html, body {
 
 .menu-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   background: #111827;
   min-height: 100vh;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
