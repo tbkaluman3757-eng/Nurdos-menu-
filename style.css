@@ -215,36 +215,44 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
 }
-/* 1. Kategori Butonları (Sıcak Kahveler, Soğuk Kahveler vb.) */
+/* 1. Kategori Butonları (Sıcak Kahveler vb.) - DEVASE BOYUT */
 .cat-btn {
-    font-size: 1.6rem !important;      /* Yazıyı ciddi oranda büyüttük */
-    font-weight: 900 !important;      /* Maksimum kalınlık (Koyu/Bold) */
-    padding: 16px 28px !important;    /* Butonların basma alanını iyice genişlettik */
-    letter-spacing: 0.5px;            /* Harfler arası hafif boşluk netlik sağlar */
+    font-size: 3rem !important;        /* Yazı boyutunu tam 3 katına çıkardık */
+    font-weight: 900 !important;       /* Simsiyah, en kalın yazı tipi */
+    padding: 30px 50px !important;     /* Butonlar ekranda kocaman alan kaplasın */
+    margin: 15px !important;           /* Butonlar birbirine yapışmasın diye aralık */
+    border-radius: 20px !important;    /* Köşeleri daha belirgin ve oval yapmak için */
+    text-transform: uppercase !important; /* Tüm harfleri BÜYÜK HARF yapar */
 }
 
-/* 2. Menü Ürün Başlıkları (Türk Kahvesi, Espresso, Filtre Kahve vb.) */
+/* 2. Menü Ürün Başlıkları (Türk Kahvesi vb.) - ULTRA BÜYÜK */
 .menu-item h3 {
-    font-size: 1.8rem !important;      /* Ürün isimlerini devasa yaptık */
-    font-weight: 800 !important;      /* Simsiyah ve kalın görünmesi için */
-    color: #ffffff !important;         /* Eğer arkası koyuysa beyaz renkte parlasın diye (isteğe bağlı değiştirebilirsin) */
+    font-size: 3.5rem !important;      /* Ürün isimlerini ekrandaki en büyük şey yapıyoruz */
+    font-weight: 900 !important;       /* Maksimum kalınlık ve görünürlük */
+    color: #ffffff !important;         /* Net okunması için bembeyaz */
+    margin-bottom: 15px !important;
 }
 
-/* 3. Fiyat Yazıları */
+/* 3. Fiyat Yazıları - KOCAMAN */
 .price {
-    font-size: 1.7rem !important;      /* Fiyatlar kabak gibi görünsün */
-    font-weight: 900 !important;      /* Fiyat kalınlığını da maksimum yaptık */
-    color: #e67e22 !important;         /* Fiyatları belirgin bir renge (örn turuncu) boyamak istersen diye, rengi değiştirebilirsin */
+    font-size: 3.2rem !important;      /* Fiyatlar uzaktan kabak gibi okunacak */
+    font-weight: 900 !important;       /* En kalın seviye */
+    color: #ff9f43 !important;         /* Çok net ve parlak bir turuncu (görünürlüğü artırır) */
+    background-color: #000000 !important; /* Arkasına siyah kutu koyarak kontrastı uçuruyoruz */
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
 }
 
-/* 4. Menüdeki Ürünlerin Kısa Açıklama Yazıları (Eğer varsa) */
+/* 4. Eğer Ürünlerin Açıklama Yazıları Varsa */
 .menu-item p {
-    font-size: 1.2rem !important;      /* Açıklamalar da okunabilsin diye büyüttük */
-    font-weight: 500 !important;
+    font-size: 2rem !important;        /* Açıklamaları da normal başlık boyutuna getirdik */
+    font-weight: 700 !important;
+    color: #cccccc !important;
 }
 
-/* 5. Ana Başlığın Altındaki Dijital QR Menü Yazısı */
+/* 5. Dijital QR Menü Alt Başlığı */
 .subtitle {
-    font-size: 1.5rem !important;
-    font-weight: 700 !important;
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
 }
