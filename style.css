@@ -187,3 +187,15 @@ html, body {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+/* Ekranı kısıtlayan genişlik sınırlarını kaldırıp tam ekran yapıyoruz */
+body, .container, main, #app, .menu { 
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Menü içeriğinin çok fazla dağılmaması ama ekrana da yayılması için */
+.menu-items, .item-list {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
