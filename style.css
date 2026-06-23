@@ -256,3 +256,13 @@ html, body {
     font-weight: 900 !important;
     text-transform: uppercase !important;
 }
+
+/* Sayfa ilk açıldığında tüm menü bölümlerini gizliyoruz */
+.menu-section {
+    display: none;
+}
+
+/* Sadece 'active-section' klasına sahip olan (yani o an seçili olan) menüyü gösteriyoruz */
+.menu-section.active-section {
+    display: block !important;
+}
