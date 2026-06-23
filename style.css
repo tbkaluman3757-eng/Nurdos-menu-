@@ -266,3 +266,22 @@ html, body {
 .menu-section.active-section {
     display: block !important;
 }
+/* 1. Ürün Görsellerini ULTRA MEGA BOYUT Yapıyoruz */
+.item-img {
+    width: 250px !important;       /* Resmin genişliğini 250 piksele çıkardık (eski haline göre bayağı büyük) */
+    height: 250px !important;      /* Kare ve nizami durması için yüksekliği de eşitledik */
+    object-fit: cover !important;  /* Resim büyürken sünmesin, kalitesi bozulmadan kutuya tam otursun */
+    border-radius: 20px !important; /* Resmin köşelerini tatlıca ovalleştirdik */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4) !important; /* Resimlerin arkasına gölge atıp öne çıkardık */
+    margin: 15px 0 !important;     /* Altından ve üstünden rahat nefes alacak boşluk */
+}
+
+/* 2. Resimlerin Yanındaki İçeriklerin Düzeni Bozulmasın Diye (Flexbox Ayarı) */
+.menu-item {
+    display: flex !important;
+    flex-direction: column !important; /* Resim ve yazıları alt alta dizer, böylece resme kocaman yer kalır */
+    align-items: center !important;    /* Her şeyi ortalar */
+    text-align: center !important;
+    padding: 25px !important;          /* Ürün kutusunun iç boşluğu */
+    border-bottom: 2px solid #222 !important; /* Ürünler arasına şık bir çizgi */
+}
